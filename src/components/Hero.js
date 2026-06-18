@@ -1,7 +1,9 @@
 import React, { useCallback } from "react";
 import { motion } from "framer-motion";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+// 1. Import the default Particles component from the NEW package
+import Particles from "@tsparticles/react";
+// 2. Import loadSlim from the NEW slim package
+import { loadSlim } from "@tsparticles/slim";
 import { useTheme } from "./ThemeContext";
 import data from "../data.json";
 
@@ -9,8 +11,9 @@ const Hero = () => {
   const { theme } = useTheme();
   const { hero } = data;
 
+  // 3. Go back to your original useCallback method!
   const particlesInit = useCallback(async (engine) => {
-    await loadFull(engine);
+    await loadSlim(engine);
   }, []);
 
   const particleColor = theme === "charcoal" ? "#FFB703" : "#45A29E";
@@ -22,7 +25,7 @@ const Hero = () => {
     >
       <Particles
         id="tsparticles"
-        init={particlesInit}
+        init={particlesInit} // 4. Pass the init function right here
         options={{
           fullScreen: { enable: false },
           fpsLimit: 120,

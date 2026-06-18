@@ -13,24 +13,63 @@
     ],
     "hobby": {
       "title": "Beyond the Code",
-      "description": "When I'm not deploying apps or consulting, I compete at an elite level in esports. The quick decision-making and strategic planning from gaming directly translates to my development workflow.",
+      "description": "When I'm not developing or designing apps, I compete at an elite level in esports, and also I mentor my friends and juniors to get better at the programming and development fields.",
       "games": ["Valorant", "CS2", "Fortnite"]
     }
   },
   "skills": {
     "title": "Skills & Tools",
     "items": [
-      { "name": "HTML", "level": "Expert" },
-      { "name": "CSS", "level": "Expert" },
-      { "name": "JavaScript", "level": "Advanced" },
-      { "name": "React", "level": "Advanced" },
-      { "name": "Node.js", "level": "Advanced" },
-      { "name": "SharePoint Framework (SPFx)", "level": "Advanced" },
-      { "name": "Express", "level": "Intermediate" },
-      { "name": "Strapi", "level": "Intermediate" },
-      { "name": "Python", "level": "Intermediate" },
-      { "name": "PostgreSQL", "level": "Beginer" },
-      { "name": "Python (Flask)", "level": "Beginer" }
+      {
+        "name": "HTML",
+        "level": "Expert",
+        "description": "Structuring the web with semantic, accessible, and highly optimized markup."
+      },
+      {
+        "name": "CSS",
+        "level": "Expert",
+        "description": "Crafting pixel-perfect, responsive layouts and complex, theme-driven animations."
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advanced",
+        "description": "Building dynamic, interactive logic and seamless user experiences for the modern web."
+      },
+      {
+        "name": "React",
+        "level": "Advanced",
+        "description": "Developing complex, component-driven applications with fluid state management and Framer Motion."
+      },
+      {
+        "name": "Node.js",
+        "level": "Advanced",
+        "description": "Creating scalable, event-driven backend services and robust server-side logic."
+      },
+      {
+        "name": "(SPFx)",
+        "level": "Advanced",
+        "description": "SharePoint Framework Building enterprise-grade web parts and customized intranet extensions."
+      },
+      {
+        "name": "Express",
+        "level": "Intermediate",
+        "description": "Routing and middleware integration for creating fast, secure RESTful APIs."
+      },
+      {
+        "name": "Strapi",
+        "level": "Intermediate",
+        "description": "Managing dynamic content and data architectures via headless CMS integration."
+      },
+      {
+        "name": "Python",
+        "level": "Intermediate",
+        "description": "Writing clean, efficient scripts for automation, data processing, and foundational backend logic."
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "Beginner",
+        "description": "Designing robust, relational database schemas for dynamic e-commerce web platforms."
+      }
     ]
   },
   "experience": {
