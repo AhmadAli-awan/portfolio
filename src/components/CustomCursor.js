@@ -23,7 +23,7 @@ const CustomCursor = () => {
   const canvasRef = useRef(null);
   const mousePos = useRef({ x: -100, y: -100 });
   const points = useRef(
-    Array.from({ length: 40 }, () => ({ x: -100, y: -100 })),
+    Array.from({ length: 5 }, () => ({ x: -100, y: -100 })),
   );
 
   useEffect(() => {
