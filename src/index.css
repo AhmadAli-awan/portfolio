@@ -1,13 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-start: #1c1c1c;
+    --bg-end: #2b2b2b;
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+    --primary: #FFB703;
+    --accent-glow: rgba(255, 183, 3, 0.5);
+    --card-bg: rgba(43, 43, 43, 0.6);
+    --card-border: rgba(255, 255, 255, 0.1);
+  }
+
+  .theme-midnight {
+    --bg-start: #0B0C10;
+    --bg-end: #121E2B;
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+    --primary: #45A29E;
+    --accent-glow: rgba(69, 162, 158, 0.5);
+    --card-bg: rgba(18, 30, 43, 0.6);
+    --card-border: rgba(255, 255, 255, 0.1);
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom right, var(--bg-start), var(--bg-end));
+  color: var(--text-main);
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-start);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-glow);
 }

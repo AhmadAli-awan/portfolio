@@ -1,0 +1,118 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Ahmad Ali",
+    "roles": ["Full-Stack", " Web Developer"]
+  },
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "I am a passionate Full-Stack Web Developer. My journey is rooted in a deep fascination with how technology can solve complex business problems while providing seamless, beautiful user experiences.",
+      "Currently pursuing my BS in Software Engineering, I am constantly expanding my theoretical knowledge and applying it to real-world, highly scalable applications. My focus allows me to bridge the gap between  enterprise solutions and modern, agile web ecosystems (React, Node, Flask).",
+      "Whether I'm architecting a robust PostgreSQL database, integrating complex APIs, or fine-tuning Framer Motion animations for a stunning UI, I treat every line of code as an opportunity to innovate."
+    ],
+    "hobby": {
+      "title": "Beyond the Code",
+      "description": "When I'm not deploying apps or consulting, I compete at an elite level in esports. The quick decision-making and strategic planning from gaming directly translates to my development workflow.",
+      "games": ["Valorant", "CS2", "Fortnite"]
+    }
+  },
+  "skills": {
+    "title": "Skills & Tools",
+    "items": [
+      { "name": "HTML", "level": "Expert" },
+      { "name": "CSS", "level": "Expert" },
+      { "name": "JavaScript", "level": "Advanced" },
+      { "name": "React", "level": "Advanced" },
+      { "name": "Node.js", "level": "Advanced" },
+      { "name": "SharePoint Framework (SPFx)", "level": "Advanced" },
+      { "name": "Express", "level": "Intermediate" },
+      { "name": "Strapi", "level": "Intermediate" },
+      { "name": "Python", "level": "Intermediate" },
+      { "name": "PostgreSQL", "level": "Beginer" },
+      { "name": "Python (Flask)", "level": "Beginer" }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "title": "Frontend Intern",
+        "company": "Technomites",
+        "date": "2022 - 2023 (6months)",
+        "description": "At Technomites, I honed my skills as a Frontend Developer. My primary focus was on enhancing user interfaces and ensuring seamless user experiences for a diverse range of web applications. I contributed to the development of multiple client projects, working with modern frontend technologies to deliver high-quality web solutions."
+      },
+      {
+        "title": "Mern - Stack Intern",
+        "company": "TekScrum",
+        "date": "2024 - 2025(6months)",
+        "description": "I began my journey as a MERN stack intern at TekScrum, where I was immersed in the world of full-stack development. My role involved working with MongoDB, Express.js, React.js, and Node.js, allowing me to gain hands-on experience in building modern web applications from the ground up."
+      },
+      {
+        "title": "Junior Full-Stack Developer",
+        "company": "Hexalyze Consultancy",
+        "date": "2026 - Present",
+        "description": "Working on real client-based projects, I am gaining hands-on experience in developing scalable and maintainable web applications. My responsibilities include building responsive user interfaces, implementing backend logic, and working with databases to deliver high-quality software solutions."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "The HUB",
+        "description": "A fully functional integrated application featuring complex arcade logic intertwined with robust e-commerce modules.",
+        "techStack": ["HTML", "CSS", "JavaScript", "Flask", "Python"],
+        "github": "#",
+        "live": "#"
+      },
+      {
+        "title": "Organic Honey Store",
+        "description": "A dynamic e-commerce web platform designed for selling premium organic honey, backed by a powerful database architecture.",
+        "techStack": ["React", "Node.js", "PostgreSQL"],
+        "github": "#",
+        "live": "#"
+      },
+      {
+        "title": "Metito Utilities",
+        "description": "A dynamic platform for Metito Utilities, providing seamless access to their services and information.",
+        "techStack": ["SharePoint", "SPFx", "React"],
+        "github": "#",
+        "live": "#"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications & Awards",
+    "items": [
+      {
+        "title": "WEB - Designing",
+        "issuer": "TechZone",
+        "type": "Course",
+        "description": "An intensive course diving deep into state-of-the-art web-designing tools and their integration into modern web applications."
+      },
+      {
+        "title": "Exploring Next Gen AI Automation Tools",
+        "issuer": "GDGOC (Google Developer Groups On Campus)",
+        "type": "Workshop",
+        "description": "An intensive workshop diving deep into state-of-the-art AI tools and their integration into modern automation workflows."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "I'm currently open to new opportunities in full-stack development. Let's build something amazing together.",
+    "socials": [
+      {
+        "name": "GitHub Profile",
+        "url": "https://github.com/AhmadAli-Awan",
+        "icon": "Code2"
+      },
+      {
+        "name": "LinkedIn Network",
+        "url": "https://www.linkedin.com/in/ahmad-ali-awan-4291183a3/",
+        "icon": "Linkedin"
+      }
+    ]
+  }
+}
