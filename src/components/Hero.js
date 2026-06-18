@@ -98,7 +98,7 @@ const Hero = () => {
             className="text-5xl md:text-7xl font-bold mb-4 leading-tight"
           >
             <span className="text-textMain block">Ahmad</span>
-            <span className="text-primary">Ali</span>
+            <span className="text-primary">Ali Awan</span>
           </motion.h1>
 
           <motion.div
@@ -194,7 +194,7 @@ const Hero = () => {
                   <span>Education</span>
                 </div>
                 <span className="text-textMain font-medium text-right">
-                  BS SE @ SSUET
+                  BS SE | OnGoing
                 </span>
               </div>
 
