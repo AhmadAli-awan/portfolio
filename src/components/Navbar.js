@@ -38,7 +38,6 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center relative">
-        {/* Logo */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -47,7 +46,6 @@ const Navbar = () => {
           AHMAD<span className="text-textMain">.DEV</span>
         </motion.div>
 
-        {/* Desktop Menu */}
         <div className="hidden lg:flex space-x-6 items-center">
           {navLinks.map((link, index) => (
             <motion.div
@@ -78,7 +76,6 @@ const Navbar = () => {
           </motion.button>
         </div>
 
-        {/* Mobile View */}
         <div className="lg:hidden flex items-center z-50">
           <button
             onClick={() => setIsOpen(!isOpen)}

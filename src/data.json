@@ -21,16 +21,6 @@
     "title": "Skills & Tools",
     "items": [
       {
-        "name": "HTML",
-        "level": "Expert",
-        "description": "Structuring the web with semantic, accessible, and highly optimized markup."
-      },
-      {
-        "name": "CSS",
-        "level": "Expert",
-        "description": "Crafting pixel-perfect, responsive layouts and complex, theme-driven animations."
-      },
-      {
         "name": "JavaScript",
         "level": "Advanced",
         "description": "Building dynamic, interactive logic and seamless user experiences for the modern web."
@@ -103,21 +93,48 @@
         "description": "A fully functional integrated application featuring complex arcade logic intertwined with robust e-commerce modules.",
         "techStack": ["HTML", "CSS", "JavaScript", "Flask", "Python"],
         "github": "#",
-        "live": "#"
+        "live": "#",
+        "images": [
+          "/assets/organicHoneyHero.jpeg",
+          "/assets/organicHoneyPremium.png",
+          "/assets/organicHoneyHTW.png"
+        ]
       },
       {
         "title": "Organic Honey Store",
         "description": "A dynamic e-commerce web platform designed for selling premium organic honey, backed by a powerful database architecture.",
         "techStack": ["React", "Node.js", "PostgreSQL", "ExpressJs"],
         "github": "#",
-        "live": "#"
+        "live": "#",
+        "images": [
+          "/assets/organicHoneyHero.jpeg",
+          "/assets/organicHoneyPremium.png",
+          "/assets/organicHoneyHTW.png"
+        ]
+      },
+      {
+        "title": "Muntaha Honey",
+        "description": "A dynamic e-commerce web platform designed for selling premium organic dry fruites, and their main specialty \"Honey\"",
+        "techStack": ["React", "Node.js", "Strapi"],
+        "github": "#",
+        "live": "#",
+        "images": [
+          "/assets/organicHoneyHero.jpeg",
+          "/assets/organicHoneyPremium.png",
+          "/assets/organicHoneyHTW.png"
+        ]
       },
       {
         "title": "Metito Utilities",
         "description": "A dynamic platform for Metito Utilities, providing seamless access to their services and information.",
         "techStack": ["SharePoint", "SPFx", "React"],
         "github": "#",
-        "live": "#"
+        "live": "#",
+        "images": [
+          "/assets/metitoHome.png",
+          "/assets/metitoNews.png",
+          "/assets/metitoVMV.png"
+        ]
       }
     ]
   },
