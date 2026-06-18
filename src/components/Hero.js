@@ -10,7 +10,6 @@ import {
   Globe,
   Mail,
   Folder,
-  CheckCircle2,
 } from "lucide-react";
 import data from "../data.json";
 
