@@ -11,11 +11,11 @@ import {
   Mail,
   Folder,
 } from "lucide-react";
-import data from "../data.json";
+// import data from "../data.json";
 
 const Hero = () => {
   const { theme } = useTheme();
-  const { hero } = data;
+  // const { hero } = data;
 
   const particlesInit = useCallback(async (engine) => {
     await loadSlim(engine);
