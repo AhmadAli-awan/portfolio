@@ -1,4 +1,5 @@
 import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { ThemeProvider } from "./components/ThemeContext";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -26,6 +27,7 @@ function App() {
           <Contact />
         </main>
       </div>
+      <SpeedInsights />
     </ThemeProvider>
   );
 }
